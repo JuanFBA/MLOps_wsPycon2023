@@ -223,7 +223,7 @@ for id,epoch in enumerate(epochs):
                 "optimizer": "Adam"}
     model = train_and_log(train_config,id)
     evaluate_and_log(id)        
-
+#modficaction
 """    
 train_config = {"batch_size": 128,
                 "epochs": 5,
