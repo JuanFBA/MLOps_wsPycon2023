@@ -16,7 +16,7 @@ def load(train_size=.8):
     """
     # Load the data
     """
-      
+      #change
     # the data, split between train and test sets
     train = torchvision.datasets.MNIST(root='./data', train=True, download=True)
     test = torchvision.datasets.MNIST(root='./data', train=False, download=True)
