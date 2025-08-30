@@ -55,5 +55,5 @@ model_config = {"input_shape":input_shape,
                 "num_classes":num_classes}
 
 model = Classifier(**model_config)
-
+#modification
 build_model_and_log(model_config, model, "linear","Simple Linear Classifier")
